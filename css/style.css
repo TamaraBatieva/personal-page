@@ -96,3 +96,6 @@ list-style-type: none;
 .portfolio-box {
     overflow: hidden;
 }
+.inspired-by-section .col-lg-4 {
+    padding: 0;
+}
