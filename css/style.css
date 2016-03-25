@@ -39,25 +39,23 @@
 .bar-fill {
   background: #ed3200;
 }
-.skills-section, .course-section, .language-section {
+.skills-section, .course-section, .language-section, .education-section {
   padding-top: 50px;
 }
-.course-section {
+.course-section li, .education-section li{
     text-align: left;
-
-
 }
 .course-section ul {
     padding-left: 0;
 }
-.course-section li {
+.course-section li, .education-section li {
 list-style-type: none;
     padding: 10px;
     font-size: 16px;
     line-height: 24px;
 
 }
-.course-section li .fa {
+.course-section li .fa, .education-section li .fa {
    color: #f05f40;
     font-size: 1.2em;
 }
