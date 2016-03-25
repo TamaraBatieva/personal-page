@@ -40,7 +40,7 @@
   background: #6688bb;
 }
 
-.course-section li, .education-section li, .skills-section li{
+.course-section li, .education-section li, .skills-section li, .language-section p{
     text-align: left;
 }
 .course-section ul, .education-list ul, .skills-section ul {
@@ -93,9 +93,16 @@ list-style-type: none;
     background-color: #6688bb;
     color: white;
 }
+h2, h3, h4, h5 {
+    font-family: 'Playfair Display', cursive;
+}
 .portfolio-box {
     overflow: hidden;
 }
 .inspired-by-section .col-lg-4 {
     padding: 0;
+}
+#header-title {
+    text-transform: none !important;
+    font-family: 'Playfair Display', cursive;
 }
