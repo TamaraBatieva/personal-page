@@ -37,13 +37,13 @@
       border-radius: 3px;
 }
 .bar-fill {
-  background: #f05f40;
+  background: #6688bb;
 }
 
 .course-section li, .education-section li, .skills-section li{
     text-align: left;
 }
-.course-section ul {
+.course-section ul, .education-list ul, .skills-section ul {
     padding-left: 0;
 }
 .course-section li, .education-section li, .skills-section li {
@@ -54,7 +54,7 @@ list-style-type: none;
 
 }
 .course-section li .fa, .education-section li .fa, .skills-section li .fa {
-   color: #f05f40;
+   color: #6688bb;
     font-size: 1.2em;
 }
 .course-list, .education-list, .skills-section {
@@ -91,4 +91,11 @@ list-style-type: none;
 }
 .header-content-inner h1, .header-content-inner p {
     text-shadow: 1px 1px 2px black;
+}
+.inspired-by-section {
+    background-color: #5588ee;
+    color: white;
+}
+.portfolio-box {
+    overflow: hidden;
 }
