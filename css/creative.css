@@ -150,10 +150,15 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/header.webp');
   text-align: center;
   color: white;
 }
+
+header.webp-fallback {
+  background-image: url('../img/header.jpg');
+}
+
 header .header-content {
   position: relative;
   text-align: center;
