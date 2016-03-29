@@ -32,4 +32,4 @@ backspace: function(curString, curStrPos){
             //every other time, delete the whole typed string
             else{
                 self.stopNum = 0;
-            }
+            };
